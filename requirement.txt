@@ -1,0 +1,27 @@
+step 1: open new terminal
+
+step2: activate environment 
+
+venv\Scripts\activate
+
+step3: run command for project   
+
+python manage.py runserver
+
+
+
+
+Online_Banking_Management_System
+
+
+
+
+
+
+
+
+
+
+
+
+
