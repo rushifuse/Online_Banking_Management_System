@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Banking System-Login</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/all.css' %}">
-    <link rel="icon" href="{% static 'images/bank.jpg' %}" />
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'all.css' %}">
+    <link rel="icon" href="{% static 'bank.jpg' %}" />
     <style>
     body{        
         background:linear-gradient( rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0.5) 100%),url("{% static 'images/login.jpg' %}");              
@@ -26,7 +26,7 @@
                 <div class="col-sm-4 mx-auto">
                     <div class="card shadow mt-4">
                         <div class="card-body text-center">
-                            <img src="{% static 'images/bank.jpg' %}" style="width:200px;height:200px;" class="my-2 rounded-circle img-thumbnail"/>                            
+                            <img src="{% static 'bank.jpg' %}" style="width:200px;height:200px;" class="my-2 rounded-circle img-thumbnail"/>                            
                             <form method="post" autocomplete="off">
                                 {% csrf_token %}
                                 <div class="form-group">                               
